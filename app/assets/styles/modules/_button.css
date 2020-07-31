@@ -1,0 +1,24 @@
+.btn {
+
+  &:link,
+  &:visited {
+    font-size: 1.5rem;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.1rem 2rem;
+  }
+
+  &--blue {
+    background-color: $mainBlue;
+  }
+
+  &--large {
+    padding: 1.4rem 3rem;
+  }
+
+  &--orange {
+    background-color: $btnOrange;
+  }
+
+}
